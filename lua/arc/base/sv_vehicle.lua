@@ -10,6 +10,8 @@ function CGM13.Vehicle:Break(vehicle, value)
     GM13.Ent:SetMute(vehicle, true)
 end
 
+asdasdasd
+
 function CGM13.Vehicle:IsBroken(vehicle)
     return vehicle:GetNWBool("cgm13_burned_engine")
 end
@@ -26,3 +28,6 @@ hook.Add("VehicleMove", "cgm13_vehicle_control", function(ply, vehicle)
         vehicle:StartEngine(false)
     end
 end)
+
+
+asdasdasd
